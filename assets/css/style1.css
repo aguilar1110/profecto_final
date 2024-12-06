@@ -59,3 +59,59 @@ nav a i {
     font-weight: bold; /* Hace el texto en negrita */
     font-size: 120%;
 }
+
+.texto{
+    padding: 30px 80px 30px 80px;
+    text-align: justify;
+}
+p{
+    color: black;
+}
+
+.input-text { 
+    width: 180px; /* Ajusta el tamaño según tus necesidades */ 
+    padding: 0; 
+    font-size: 16px; 
+}
+
+
+footer {
+       
+    background-color: #CEB292; /* Color de fondo del footer */
+    color: #000000; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    font-size: 0.9rem; /* Tamaño del texto */
+    position: relative; /* Para mantenerlo dentro del flujo del contenido */
+    width: 100%; /* Asegurar que ocupe todo el ancho */
+    
+}
+
+.container text-center{
+    padding: 0 0 80px 0;
+}
+
+.col-8 p{
+    text-align: justify;
+}
+/* Container */
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Quitar flechas en navegadores basados en WebKit (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Eliminar apariencia predeterminada */
+  margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+/* Quitar flechas en Firefox */
+input[type="number"] {
+  -moz-appearance: textfield; /* Cambiar apariencia a campo de texto */
+}

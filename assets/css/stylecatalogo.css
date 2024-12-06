@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;              /* Elimina los márgenes predeterminados de todos los elementos */
+    padding: 0;             /* Elimina el relleno (padding) predeterminado de todos los elementos */
+    box-sizing: border-box; /* Cambia el modelo de caja para que el ancho y alto de los elementos incluyan el relleno y borde */
 }
 
 
@@ -10,7 +10,7 @@ header {
     padding: 6px 40px;
 }
 
-.container-header {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,35 +47,26 @@ nav a:hover {
 
 nav a i {
     margin-left: 5px; 
-    font-size: 18px; 
+    font-size: 1.2rem; 
     color: black; 
 }
 
 
+
 a{
-    text-decoration: none;
+    text-decoration:none;
 }
 
-i{
-    color: rgb(94, 91, 91);
-    font-size: 3em;   
+i {
+    color: rgb(94, 91, 91); /* Define el color del texto o íconos como un gris oscuro */
+    font-size: 3em; /* Establece el tamaño de la fuente en 3 veces el tamaño base del texto */
 }
 
-#contepuntos{
-    background-color: rgb(216, 212, 205);
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#contepuntos > a {
-    font-size: 2em;
-    font-style: none;
-    color:  rgb(94, 91, 91);
-}
 
 img{
     width: 100%;
     height: 100%;
+    border-radius: 15px;
 }
 
 footer {
@@ -91,7 +82,7 @@ footer {
 }
 
 /* Container */
-.container-main {
+.container {
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -107,23 +98,21 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Estilo para la imagen y el texto alineados */
-.imagen-texto {
-    display: flex; /* Solo esta sección tiene flexbox */
-    align-items: center; /* Alineación vertical */
-    gap: 20px; /* Espacio entre imagen y texto */
-    margin: 20px 0;
-}
 
-.imagen-texto img {
-    width: 300px;
+
+/* Image column */
+.col-4 img {
+    width: 80%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 8px;
+
 }
 
-.imagen-texto p {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: justify;
+.col-md-8 p {
+text-align: justify;/* justifica el texto*/
 }
-
+.precio p {
+    text-align: center; /* Centra el texto horizontalmente dentro del párrafo */
+    font-size: 20px; /* Establece el tamaño de la fuente en 20px */
+    font-weight: bold; /* Aplica negrita al texto */
+}

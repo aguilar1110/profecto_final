@@ -8,12 +8,14 @@
 header {
     background-color: #CEB292; 
     padding: 6px 40px;
+    font-size: 18px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -31,7 +33,7 @@ nav {
 nav a {
     text-decoration: none; /* Quita el subrayado */
     color: #333; /* Color del texto */
-    font-size: 18px; /* Tamaño de letra */
+    font-size: 1.2rem; /* Tamaño de letra */
     padding: 8px 12px; /* Relleno interno para área clickeable */
     border-radius: 5px; /* Opcional: bordes redondeados */
 }
@@ -53,7 +55,7 @@ nav a i {
 
 #conteitemscarrusel{
 
-    height: 80vh;
+    height: 95vh;
     overflow: hidden;
 }
 
@@ -84,7 +86,7 @@ a{
 }
 
 i{
-    color: rgb(94, 91, 91);
+    color: rgb(180, 150, 150);
     font-size: 3em;   
 }
 
@@ -97,7 +99,7 @@ i{
 #contepuntos > a {
     font-size: 2em;
     font-style: none;
-    color:  rgb(94, 91, 91);
+    color:  rgb(199, 158, 158);
 }
 
 img{
@@ -129,14 +131,14 @@ footer {
 
 /* Header text */
 .texto h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #333333;
     margin-bottom: 20px;
 }
 
 /* Text column */
 .col-8 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: #555555;
     text-align: justify;

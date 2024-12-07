@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #cfb291; 
+    padding: 6px 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    max-width: 60px; 
+    height: auto;
+}
+
+
+nav {
+    display: flex;
+    gap: 25px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 1.2rem;
+    padding: 8px 12px; 
+    border-radius: 5px; 
+}
+
+nav a:hover {
+    background-color: #e2b495; 
+    color: rgb(0, 0, 0); 
+    transition: 0.3s ease; 
+    
+
+}
+
+
+nav a i {
+    margin-left: 5px; 
+    font-size: 18px; 
+    color: black; 
+}
+
+#titulo{
+    text-align: center !important; /* Centra el texto horizontalmente */
+    width: auto !important; /* Ancho del contenedor */
+    padding: 20px !important;
+    background-color: #F5E9E9 !important; /* Color de fondo opcional */
+    font-weight: bold; /* Hace el texto en negrita */
+    font-size: 1.3rem;
+}
+
+.texto{
+    padding: 30px 80px 30px 80px;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+p{
+    color: black;
+}
+
+.input-text { 
+    width: 180px; /* Ajusta el tamaño según tus necesidades */ 
+    padding: 0; 
+    font-size: 16px; 
+}
+
+
+footer {
+       
+    background-color: #CEB292; /* Color de fondo del footer */
+    color: #000000; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    font-size: 0.9rem; /* Tamaño del texto */
+    position: relative; /* Para mantenerlo dentro del flujo del contenido */
+    width: 100%; /* Asegurar que ocupe todo el ancho */
+    
+}
+
+.container text-center{
+    padding: 0 0 80px 0;
+}
+
+.col-8 p{
+    text-align: justify;
+}
+/* Container */
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Quitar flechas en navegadores basados en WebKit (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Eliminar apariencia predeterminada */
+  margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+.colorboton {
+	box-shadow:inset 0px 1px 0px 0px #d3b8b5;
+	background:linear-gradient(to bottom, #cfb291 5%, #cfb291 100%);
+	background-color:#cfb291;
+	border-radius:3px;
+	border:2px solid #cfb291;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cfb291;
+}
+.colorboton:hover {
+	background:linear-gradient(to bottom, #cf9797 5%, #cf9797 100%);
+	background-color:#cfb291;
+}
+.colorboton:active {
+	position:relative;
+	top:3px;
+}
+
+/* Estilos Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .imagen-texto {
+        flex-direction: column; /* Las imágenes y el texto se colocan en columna */
+        align-items: center;
+    }
+
+    .imagen-texto img {
+        width: 50%; /* Las imágenes ocupan el 90% del ancho del contenedor */
+    }
+
+    .imagen-texto p {
+        font-size: 14px; /* Reduce el tamaño del texto */
+    }
+}
+

@@ -181,3 +181,30 @@ margin-top: 10px;
 .list-group{
     padding: 0 90px;
 }
+
+/* Estilos Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .imagen-texto {
+        flex-direction: column; /* Las imágenes y el texto se colocan en columna */
+        align-items: center;
+    }
+
+    .imagen-texto img {
+        width: 50%; /* Las imágenes ocupan el 90% del ancho del contenedor */
+    }
+
+    .imagen-texto p {
+        font-size: 14px; /* Reduce el tamaño del texto */
+    }
+}
